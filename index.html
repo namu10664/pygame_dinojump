@@ -161,7 +161,7 @@ async def custom_site():
         else:
             prompt = fnt.render(f"Setting [{pkg}] up", True, "black")
         pg_bar(track.len)
-        screen.blit(prompt, ( marginx+ ux(80), marginy - uy(10) ) )
+        # screen.blit(prompt, ( marginx+ ux(80), marginy - uy(10) ) )
         compose()
 
     # # test/wait if user media interaction required
@@ -487,4 +487,5 @@ frameborder="1"
 
 </body>
 </html>
+
 
